@@ -5,10 +5,13 @@ body{
   margin: auto;
   padding: auto;
   font-family: sans-serif;
-  background: url("../imagen/logo.jpg") top center;
-  background-size: cover;
+ background: linear-gradient(#141e30, #243b55); 
+ 
+ 
+ /*background: url("../imagen/logo.jpg") top center;
+  background-size: cover; */
 
-  /*background: linear-gradient(#141e30, #243b55); */
+   
 }
 .login-box{
   position: absolute;
