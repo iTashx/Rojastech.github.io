@@ -303,7 +303,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #ff0101;
 }
 
 .section-title h2::after {
@@ -381,7 +381,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #fc0000;
   margin-left: 60px;
 }
 
@@ -390,21 +390,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #ff0000;
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: #122f57;
+  color: #ff0000;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #ff0000;
 }
 
 /*--------------------------------------------------------------
@@ -452,13 +452,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #ff0000;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #ff0000;
   position: relative;
 }
 
@@ -468,13 +468,13 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ff0000;
   margin-bottom: 10px;
 }
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #e4edf9;
+  background: #ff0000;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -714,11 +714,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #ff0800;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #ff0000;
 }
 
 .services .description {
@@ -828,14 +828,14 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: none;
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+ 
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #1100ff;
   float: left;
   width: 44px;
   height: 44px;
@@ -852,14 +852,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: red;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: rgb(255, 0, 0)
 }
 
 .contact .info .email p {
