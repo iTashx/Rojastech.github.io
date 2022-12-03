@@ -1,7 +1,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #000000;
 }
 
 a {
@@ -24,7 +24,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Volver al botón superior
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -132,9 +132,9 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu
+# menu de navegacion
 --------------------------------------------------------------*/
-/* Desktop Navigation */
+/* Navegación de escritorio*/
 .nav-menu {
   padding: 30px 0 0 0;
 }
@@ -183,7 +183,7 @@ h6 {
   color: #149ddd;
 }
 
-/* Mobile Navigation */
+/* navegacion de telefono*/
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -282,17 +282,17 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sections Generales
+# Secciones Generales
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
 }
-
+/* fondo de habilidades 
 .section-bg {
   background: #f5f8fd;
 }
-
+*/
 .section-title {
   padding-bottom: 30px;
 }
@@ -408,7 +408,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Skills
+# habilidades
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -424,7 +424,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #ff0000;
 }
 
 .skills .progress .skill .val {
@@ -443,6 +443,11 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Resumen
@@ -608,7 +613,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Portfolio Detalles
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
@@ -673,7 +678,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Servicios
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
@@ -728,7 +733,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Testimonios
 --------------------------------------------------------------*/
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
@@ -820,7 +825,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Contacto
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
@@ -835,7 +840,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #1100ff;
+  color: black;
   float: left;
   width: 44px;
   height: 44px;
@@ -852,14 +857,15 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: red;
+  color: rgb(114, 114, 114);
+ 
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: rgb(255, 0, 0)
+  color: rgb(114, 114, 114);
 }
 
 .contact .info .email p {
@@ -1015,7 +1021,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
+# Breadcrumbs PAN?
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
